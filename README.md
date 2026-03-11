@@ -56,7 +56,7 @@ No scraping experience needed. If you can describe the data you want, Octoparse 
 ```json
 {
   "mcpServers": {
-    "Octoparse": {
+    "octoparse": {
       "url": "https://mcp.octoparse.com"
     }
   }
@@ -74,7 +74,7 @@ claude mcp add octoparse -s user -t http https://mcp.octoparse.com
 ```json
 {
   "mcpServers": {
-    "Octoparse": {
+    "octoparse": {
       "httpUrl": "https://mcp.octoparse.com",
       "oauth": { "clientId": "Octoparse", "enabled": true }
     }
@@ -92,7 +92,7 @@ After adding the server, complete OAuth authorization in your browser when promp
 
 | | |
 |---|---|
-| 🔍 Search Templates | 5,000+ ready-to-use scraping templates for popular sites |
+| 🔍 Search Templates | Ready-to-use scraping templates for popular sites |
 | 📋 Create Tasks | Set up new scraping jobs via natural language |
 | ▶️ Control Tasks | Start, stop, and monitor execution |
 | 💾 Export Data | Download results as JSON or CSV |
