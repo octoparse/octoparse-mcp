@@ -1,0 +1,19 @@
+# Git and Docker files
+.git
+.gitignore
+.dockerignore
+
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Local Environment & Editor files
+.env.local
+.claude/
+.vscode/

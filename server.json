@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.octoparse/octoparse-mcp",
+  "title": "Octoparse MCP Server",
+  "description": "Official Octoparse MCP server for template discovery, cloud tasks, and structured data export.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/octoparse/octoparse-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://www.octoparse.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.octoparse.com"
+    }
+  ]
+}

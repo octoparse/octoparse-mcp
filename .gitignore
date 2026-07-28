@@ -1,0 +1,12 @@
+dist/*
+node_modules/*
+.env
+.env.*
+!.env.example
+.idea/
+*.log
+*.tgz
+.claude/
+docs/temp/
+web/dist/
+web/node_modules/
